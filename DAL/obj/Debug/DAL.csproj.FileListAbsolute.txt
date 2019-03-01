@@ -20,6 +20,6 @@ D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.csproj.CoreCompi
 D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.dll
 D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.pdb
+D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.Migrations.Initial.resources
 D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
-D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

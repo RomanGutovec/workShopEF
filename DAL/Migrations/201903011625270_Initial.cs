@@ -17,15 +17,16 @@ namespace DAL.Migrations
                 })
                 .PrimaryKey(t => t.cln_item_id);
 
-            this.Sql(@"insert into tbl_items(cln_item_description, cln_item_price) values
+            Sql(@"SET IDENTITY_INSERT tbl_items ON;" + @"insert into tbl_items (cln_item_id, cln_item_description, cln_item_price) values
 
-                 ('56'' Blue Freen', 3.5),
+                 (563, '56'' Blue Freen', 3.50),
 
-                 ('Spline End (Xtra Large)', 0.25),
+                 (851, 'Spline End (Xtra Large)', 0.25),
 
-                 ('3'' Red Freen', 12.0)
+                 (625, '3'' Red Freen', 12.00)
 
                 ");
+
         }
 
         public override void Down()
