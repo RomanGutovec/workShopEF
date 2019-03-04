@@ -25,3 +25,4 @@ D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.csproj.GenerateR
 D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.Migrations.Orders.resources
 D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.Migrations.OrderItem.resources
 D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\WORKSHOP_HW\EF\EF_Home\ADO.NET_ORM\Example\DAL\obj\Debug\DAL.Migrations.Customers.resources
