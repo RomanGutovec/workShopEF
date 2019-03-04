@@ -18,6 +18,9 @@ namespace DAL.Configurations
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
             this.Property(item => item.Description).HasColumnName("cln_item_description");
             this.Property(item => item.Price).HasColumnName("cln_item_price");
+            this.HasMany(orderItem => orderItem.OrderItems)
+                .WithRequired(orderItem => orderItem.Item)
+                .HasForeignKey(orderItem => orderItem.ItemId);
         }
     }
 }

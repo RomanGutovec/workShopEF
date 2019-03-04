@@ -10,6 +10,6 @@ namespace DAL.Entities
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
-        public virtual ICollection<Item> Items { get; set; }
+        public virtual ICollection<OrderItem> OrderItems { get; set; }
     }
 }

@@ -15,11 +15,14 @@ namespace DAL.Configurations
             this.ToTable("tbl_orders").HasKey(order => order.Id);
             this.Property(order => order.Id).HasColumnName("cln_order_id");
             this.Property(order => order.Date).HasColumnName("cln_order_date");
-            this.HasMany(o => o.Items)
-                .WithMany(i => i.Orders)
-                .Map(m => m.ToTable("tbl_order_items")
-                .MapLeftKey("cln_order_id")
-                .MapRightKey("cln_item_id"));
+            //this.HasMany(o => o.Items)
+            //    .WithMany(i => i.Orders)
+            //    .Map(m => m.ToTable("tbl_order_items")
+            //    .MapLeftKey("cln_order_id")
+            //    .MapRightKey("cln_item_id"));
+            this.HasMany(orderItem => orderItem.OrderItems)
+                .WithRequired(orderItem => orderItem.Order)
+                .HasForeignKey(orderItem => orderItem.OrderId);
         }
     }
 }
